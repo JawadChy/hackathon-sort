@@ -58,7 +58,7 @@ print()
 print("Type 'y' if you want to add more hackathons to the current list, or type 'n' to continue to sorting : ")
 userInput3 = input()
 
-while userInput3 != "y" and userInput != "n":
+while userInput3 != "y" and userInput3 != "n":
     print("Unrecognized input. Please enter 'y' to add a value to the list, or type 'n' to continue with adding a new value : ")
     userInput3 = input()
     if userInput3 == "y":
